@@ -10,13 +10,12 @@ void find_mirrored_multiples() {
         }
 
         if (a * 4 == rev) {
-            printf("Найдено число: %d (при умножении на 4 получается %d)\n", a, a * 4);
+            printf("Num: %d\n", a, a * 4);
         }
     }
 }
 
 int main() {
-    printf("Поиск чисел, которые при умножении на 4 становятся зеркальными:\n");
     find_mirrored_multiples();
     return 0;
 }
